@@ -28,7 +28,7 @@ header>p{
 main{
     font-family: 'Sriracha', sans-serif;
     font-size: 50px;
-    font-weight: normal; 
+    font-weight: normal;
 }
 p{
     margin: 35px 865px 35px 35px;
@@ -38,20 +38,21 @@ p{
 }
 section{
     padding: 30px 0px;
+    
 }
 section#img1{
     background-image: url(imagens/background001.jpg);
-    box-shadow: 0px;
+    box-shadow: inset 10px 10px 10px black; /*NAO ESTA FUNCIONANDO      INSET FAZ A SOMBRA PARA DENTRO MAS NAO TA FUNCIONANDO NA IMAGEM*/
 }
 section#img2{
-    background-image: url(imagens/background002.jpg);
-    box-shadow: 0px;
+    background-image: url(imagens/background002.jpg); 
 }
 footer{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
+    padding: 10px;
 }
 a{
     font-weight: bold;
