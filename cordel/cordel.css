@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
-body{
+html, body{
     margin: 0px;
+    min-height: 100vh;
 }
 header{
     font-family: 'Passion One', sans-serif;
@@ -18,12 +19,14 @@ header{
 h1{
     font-variant: small-caps;
     margin: 0px;
+    font-size: 10vw;
 }
 header>p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     margin: 0px;
     line-height: normal;
+    padding: 0px;
 }
 main{
     font-family: 'Sriracha', sans-serif;
@@ -31,10 +34,11 @@ main{
     font-weight: normal;
 }
 p{
-    margin: 35px 865px 35px 35px;
-    line-height: 113px;
+    margin: 35px 12em 0.6em 35px;
     font-weight: 400px;
-    font-size: 50px;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 30px 0px 80px 0px;
 }
 section{
     padding: 30px 0px;
@@ -42,10 +46,17 @@ section{
 }
 section#img1{
     background-image: url(imagens/background001.jpg);
-    box-shadow: inset 10px 10px 10px black; /*NAO ESTA FUNCIONANDO      INSET FAZ A SOMBRA PARA DENTRO MAS NAO TA FUNCIONANDO NA IMAGEM*/
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.6);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section#img2{
-    background-image: url(imagens/background002.jpg); 
+    background-image: url(imagens/background002.jpg);
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.596);
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     text-align: center;
@@ -61,5 +72,12 @@ a{
 }
 p.img{
     color: white;
-    background-color: rgba(0, 0, 0, 0.703);
+    background-color: rgba(0, 0, 0, 0.533);
+    padding: 5px;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+    display: inline-block;
+
+}
+a:hover{
+    text-decoration: underline;
 }
