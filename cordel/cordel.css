@@ -48,7 +48,6 @@ section#img1{
     background-image: url(imagens/background001.jpg);
     box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.6);
     background-position: center right;
-    background-size: cover;
     background-attachment: fixed;
 }
 section#img2{
